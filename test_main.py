@@ -39,10 +39,12 @@ class Plumber(Specialist):
         super().__init__(name)
         self.profession = 'plumber'
 
-
+#homeowner
 alfred = Homeowner('Alfred Alfredson','Alfredslane 123',['painter', 'plumber'], [])
 bert = Homeowner('Bert Bertson', 'Bertslane 231', ['plumber'], [])
 candice = Homeowner('Candice Candicedottir','Candicelane 312',['electrician', 'plumber'], [])
+
+# specialists
 bob = Painter('Bob Bobsville')
 craig = Plumber('Craig Craigsville')
 alice = Electrician('Alice Aliceville')
